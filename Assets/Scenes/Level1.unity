@@ -1719,6 +1719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1111885552}
   - component: {fileID: 1111885553}
+  - component: {fileID: 1111885554}
   m_Layer: 0
   m_Name: EnemyHealth
   m_TagString: Untagged
@@ -1798,6 +1799,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1111885554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111885551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efc29204c89487a4eb365f2c2671b14d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1365021869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1809,6 +1822,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AIFighter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1524630949764684984, guid: 7376767b49852ca439e2464dcbfb88e5,
+        type: 3}
+      propertyPath: punchEvent
+      value: event:/Punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 1524630949764684984, guid: 7376767b49852ca439e2464dcbfb88e5,
+        type: 3}
+      propertyPath: flipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1524630949764684982, guid: 7376767b49852ca439e2464dcbfb88e5,
         type: 3}
@@ -1865,16 +1888,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1524630949764684984, guid: 7376767b49852ca439e2464dcbfb88e5,
-        type: 3}
-      propertyPath: punchEvent
-      value: event:/Punch
-      objectReference: {fileID: 0}
-    - target: {fileID: 1524630949764684984, guid: 7376767b49852ca439e2464dcbfb88e5,
-        type: 3}
-      propertyPath: flipX
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1524630949459541548, guid: 7376767b49852ca439e2464dcbfb88e5,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -1891,6 +1904,16 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ca6aaa376e8063d47bb519be45a2f0aa, type: 2}
+    - target: {fileID: 1524630949764684981, guid: 7376767b49852ca439e2464dcbfb88e5,
+        type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1524630949764684981, guid: 7376767b49852ca439e2464dcbfb88e5,
+        type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1524630949764684983, guid: 7376767b49852ca439e2464dcbfb88e5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7376767b49852ca439e2464dcbfb88e5, type: 3}
@@ -2295,8 +2318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d006429de48b9e444a43533d03a12e7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 2143186032}
-  enemyHealth: {fileID: 1111885553}
+  playerHealth: {fileID: 2143186033}
+  enemyHealth: {fileID: 1111885554}
   canvasAnimator: {fileID: 1561231876}
   fightAnimator: {fileID: 643161717}
   fadeImage: {fileID: 1692328130}
@@ -3430,6 +3453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143186031}
   - component: {fileID: 2143186032}
+  - component: {fileID: 2143186033}
   m_Layer: 0
   m_Name: PlayerHealth
   m_TagString: Untagged
@@ -3509,6 +3533,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &2143186033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143186030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efc29204c89487a4eb365f2c2671b14d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2143367583
 GameObject:
   m_ObjectHideFlags: 0
@@ -4208,6 +4244,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Figher
       objectReference: {fileID: 0}
+    - target: {fileID: 1524630949764684984, guid: 7376767b49852ca439e2464dcbfb88e5,
+        type: 3}
+      propertyPath: punchEvent
+      value: event:/Punch
+      objectReference: {fileID: 0}
     - target: {fileID: 1524630949764684982, guid: 7376767b49852ca439e2464dcbfb88e5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4263,10 +4304,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1524630949764684984, guid: 7376767b49852ca439e2464dcbfb88e5,
+    - target: {fileID: 1524630949764684981, guid: 7376767b49852ca439e2464dcbfb88e5,
         type: 3}
-      propertyPath: punchEvent
-      value: event:/Punch
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1524630949764684981, guid: 7376767b49852ca439e2464dcbfb88e5,
+        type: 3}
+      propertyPath: maxHealth
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7376767b49852ca439e2464dcbfb88e5, type: 3}

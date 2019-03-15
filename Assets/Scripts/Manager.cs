@@ -8,11 +8,11 @@ public class Manager : MonoBehaviour
 {
 	PlayerController playerController;
 	AIController aiController;
-
+	Damagable playerDamagable, aiDamagable;
 	Fighter playerFighter;
 
-	public Slider playerHealth;
-	public Slider enemyHealth;
+	public Healthbar playerHealth;
+	public Healthbar enemyHealth;
 
 	bool fadeOut = false;
 
@@ -34,6 +34,11 @@ public class Manager : MonoBehaviour
 
 		playerHealth.transform.localPosition = Vector3.Lerp(playerHealth.transform.localPosition, playerHealthPosition + lerpOffset, Time.deltaTime * 4);
 		enemyHealth.transform.localPosition = Vector3.Lerp(enemyHealth.transform.localPosition, enemyHealthPosition + lerpOffset, Time.deltaTime * 4);
+
+		playerHealth.Value = (float)playerDamagable.health / playerDamagable.maxHealth;
+		enemyHealth.Value = (float)aiDamagable.health / aiDamagable.maxHealth;
+
+		print(aiDamagable.health / aiDamagable.maxHealth);
 	}
 
 	void Start()
@@ -48,6 +53,9 @@ public class Manager : MonoBehaviour
 
 		enemyHealthPosition = enemyHealth.transform.localPosition;
 		playerHealthPosition = playerHealth.transform.localPosition;
+
+		playerDamagable = playerController.GetComponent<Damagable>();
+		aiDamagable = aiController.GetComponent<Damagable>();
 
 		playerFighter = playerController.fighter;
 

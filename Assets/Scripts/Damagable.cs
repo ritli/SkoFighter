@@ -6,21 +6,20 @@ public class Damagable : MonoBehaviour
 {
 	public int health, maxHealth;
 
+	Fighter fighter;
+
 	public void DealDamage(int damage)
 	{
 		health -= damage;
 
 		GetComponentInChildren<SpriteAnimator>()?.FlashSpriteInColor(Color.red, 0.6f);
-	}
+
+		fighter?.GetHit();
+	}	
 
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+		fighter = GetComponent<Fighter>();
+		health = maxHealth;
     }
 }

@@ -11,6 +11,9 @@ TextureImporter:
     21300012: goose_6
     21300014: goose_7
     21300016: goose_8
+    21300018: goose_9
+    21300020: goose_10
+    21300022: goose_11
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -107,7 +110,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 092acf6ef95e0194596c6fd8da8e8af6
+      spriteID: 94ee2671177838a4ca2a89f4aead6cd0
       vertices: []
       indices: 
       edges: []
@@ -127,7 +130,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0f20d1d2f830b749a2203f13aa7d09e
+      spriteID: 11fde13677c11754c8725c0bed21a89d
       vertices: []
       indices: 
       edges: []
@@ -147,7 +150,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c70936bb85abb546b72063be518ab6b
+      spriteID: 703b6dbf5098a974980c7a270b96415a
       vertices: []
       indices: 
       edges: []
@@ -167,7 +170,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0ed8b933a1088e4fae7ffffd37262b7
+      spriteID: d429164c87c5d0248ac3fe76060c448e
       vertices: []
       indices: 
       edges: []
@@ -187,7 +190,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39aba7bd6ba4c53418adc2f1d59e4ebe
+      spriteID: 6040e671783688742a6ff62300dd3d18
       vertices: []
       indices: 
       edges: []
@@ -207,7 +210,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53b80f1078c838844b5cfec29aeb7bb4
+      spriteID: 0fca4169d38f20e4fbf8d4e3e168f866
       vertices: []
       indices: 
       edges: []
@@ -227,7 +230,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f383e04985b6792468d90b5cb5eaf6ad
+      spriteID: 1afdd317faa4e234abc1f59f59b72e03
       vertices: []
       indices: 
       edges: []
@@ -247,7 +250,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eefb9b0296b6b6d4fb7cae92a4743501
+      spriteID: 664d389ed2d41a14abd3c4d36872cfb6
       vertices: []
       indices: 
       edges: []
@@ -267,7 +270,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ad43444558f2744a60f94316c11b54
+      spriteID: addd18d3a18dbda4ea4288c28b973219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goose_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208e70326301b7d419aa7db6bcd4873e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goose_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fe2d1c04b4cdd45b215710bb5d12fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goose_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287458fa36aff06418de689587fd7f64
       vertices: []
       indices: 
       edges: []

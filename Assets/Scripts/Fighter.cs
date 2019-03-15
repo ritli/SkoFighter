@@ -20,6 +20,7 @@ public class Fighter : MonoBehaviour
 	float groundY;
 	float feetLength;
 	bool facingRight;
+	bool wasHit;
 
 	public Vector3 punchPosition;
 	public Vector3 punchHitBox = Vector3.one * 0.5f;
@@ -84,6 +85,12 @@ public class Fighter : MonoBehaviour
 		animator.SetFloat("Speed", Mathf.Abs(xVelocity));
 		animator.SetBool("OnGround", onGround);
 
+		if (wasHit)
+		{
+			wasHit = false;
+			animator.Play("WasHit");
+		}
+
 		if (jumping && !jumpAnimPlayed)
 		{
 			jumpAnimPlayed = true;
@@ -93,6 +100,7 @@ public class Fighter : MonoBehaviour
 		{
 			jumpAnimPlayed = false;
 		}
+
 	}
 
 	public void Move()
@@ -157,6 +165,10 @@ public class Fighter : MonoBehaviour
 		}
 	}
 
+	public void GetHit()
+	{
+		wasHit = true;
+	}
 
 	void DealDamageAtPoint(Vector3 position, Vector3 size, int damage)
 	{
