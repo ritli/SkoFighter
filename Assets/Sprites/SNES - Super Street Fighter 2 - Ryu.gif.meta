@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 7645539c1b705064bb2a37a69987b63d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Super Street Fighter 2 - Ryu_1
+    21300002: SNES - Super Street Fighter 2 - Ryu_2
+    21300004: SNES - Super Street Fighter 2 - Ryu_0
+    21300006: SNES - Super Street Fighter 2 - Ryu_3
+    21300008: SNES - Super Street Fighter 2 - Ryu_4
+    21300010: SNES - Super Street Fighter 2 - Ryu_5
+    21300012: SNES - Super Street Fighter 2 - Ryu_6
+    21300014: SNES - Super Street Fighter 2 - Ryu_7
+    21300016: SNES - Super Street Fighter 2 - Ryu_8
+    21300018: SNES - Super Street Fighter 2 - Ryu_9
+    21300020: SNES - Super Street Fighter 2 - Ryu_10
+    21300022: SNES - Super Street Fighter 2 - Ryu_11
+    21300024: SNES - Super Street Fighter 2 - Ryu_12
+    21300026: SNES - Super Street Fighter 2 - Ryu_13
+    21300028: SNES - Super Street Fighter 2 - Ryu_14
+    21300030: SNES - Super Street Fighter 2 - Ryu_15
+    21300032: SNES - Super Street Fighter 2 - Ryu_16
+    21300034: SNES - Super Street Fighter 2 - Ryu_17
+    21300036: SNES - Super Street Fighter 2 - Ryu_18
+    21300038: SNES - Super Street Fighter 2 - Ryu_19
+    21300040: SNES - Super Street Fighter 2 - Ryu_20
+    21300042: SNES - Super Street Fighter 2 - Ryu_21
+    21300044: SNES - Super Street Fighter 2 - Ryu_22
+    21300046: SNES - Super Street Fighter 2 - Ryu_23
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 869
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db1379335b56564b8faeb618149cfda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 869
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c34dc2fc4d64aa479fd8a04bc528cc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 869
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242d81d8640ffb14baf5ff296d2b9c06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 869
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1bdcbfdaf14be4792709582d7b4256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 869
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14308500a6676bc4a95424aadf20354b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 869
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1a883d305ba424981f95cee7f48716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 869
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a1ec784a304ba45a37941e58ea5a9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 869
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f0105515dcfe346822a246967d5d52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_9
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 869
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f2abd1eae1ef8419bfc82b256d6b18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 753
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a133435c9a2a348bfb0310f4260e6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 753
+        width: 57
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf91504a7ee927a47a143b7210537bd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_12
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 753
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5692805b2a6d34ca347ebc1a7b1214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 622
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0177815d622008746b586435361d8d4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 622
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e909a76d4a07eeb45bd9fe60da35ba01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 622
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e264830fbe93b4688a46557daf3df4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 622
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be55b8a88ec8d947a7d330382c15f15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 622
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f938df8874ad641969f2e8f6e7688d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_17
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 869
+        width: 43
+        height: 86
+      alignment: 9
+      pivot: {x: 0.8129407, y: 0.5064307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68048d206b58551488d4ddd4d16e5d9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_18
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 869
+        width: 43
+        height: 90
+      alignment: 9
+      pivot: {x: 0.8129407, y: 0.5064307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07060fa5d95ed31449bfdd7d0c101170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_19
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 869
+        width: 43
+        height: 86
+      alignment: 9
+      pivot: {x: 0.8129407, y: 0.5064307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450afcfa8c3f45d4398c35246cf9182e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 869
+        width: 43
+        height: 86
+      alignment: 9
+      pivot: {x: 0.8129407, y: 0.5064307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ac20b802858e49900bef1ca2d8eda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_21
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 869
+        width: 43
+        height: 87
+      alignment: 9
+      pivot: {x: 0.8129407, y: 0.5064307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c65921568b6a20469751c6562ca55ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_22
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 869
+        width: 43
+        height: 90
+      alignment: 9
+      pivot: {x: 0.8129407, y: 0.5064307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c7c82fa755604687de592ba7c560a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Ryu_23
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 869
+        width: 43
+        height: 90
+      alignment: 9
+      pivot: {x: 0.8129407, y: 0.5064307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0631e3f5966c744bbfbaa20466fa3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fe9e657892cc6644e9a4c7accb2b1ed9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

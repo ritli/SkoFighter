@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{209c1c08-c612-4e7b-a795-6ee0b7beaccf}">
+        <property name="assetPath">
+            <value>SFX/punch4.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.43267573696145123</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{fce0bf67-4b54-436d-b682-4bd0e4d8da73}</destination>
+        </relationship>
+    </object>
+</objects>
